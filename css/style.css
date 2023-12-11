@@ -1,0 +1,26 @@
+.content {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 60% , rgba(0, 0, 0, 0.1)),
+  url("../images/palestine-75yqzvkpketv5cob.jpg");
+  background-position:100% 0%;
+  background-size: cover;
+  
+}
+
+.content .desc .btn-primary {
+  padding: 15px 30px;
+  --bs-btn-hover-bg: #198754;
+  --bs-btn-hover-border-color: #198754;
+}
+.content .image {
+  max-width: 200px;
+  max-height: 200px;
+}
+.content .image img {
+  width: 100%;
+}
+.content .qoutes{
+  width: max(80% ,300px);
+  background-color: #00000081;
+  border-radius: 30px;
+  border: 1px solid #eeeeee41 ;
+}

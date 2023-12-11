@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/quote_social_icon.png" >
+    <title>Qoutes</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div
+      class="content vh-100 d-flex justify-content-center align-items-center flex-column"
+    >
+      <div id="saiderImage" class="image m-4 rounded-circle overflow-hidden">
+        <img src="./images/0.png" alt="the person which said it " />
+      </div>
+
+      
+        <div class="desc text-center">
+          <p class="lead fs-4 fw-semibold text-white">
+            Press the button below to recieve a random quote!
+          </p>
+          <button onclick="generateQoutes()" class="btn btn-primary">
+            New Qoutes
+          </button>
+        </div>
+  
+        <div class="qoutes text-center p-3 mt-4 fs-3 fw-bold text-white  ">
+          <p id="qoutes">
+            ✌️"والله لننصرنّ الحق.. فلتحيا فلسطين.. فلتحيا فلسطين.. فلتحيا
+            فلسطين"..
+          </p>
+          <span id="saider">― محمد ابو تريكه</span>
+        </div>
+      
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
